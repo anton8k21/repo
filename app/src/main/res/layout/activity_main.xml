@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:translationZ="20dp"
+        android:visibility="gone"
+        android:id="@+id/app_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/rr"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Тренеровка рук"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#F4F1F1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/radius"
+                    android:text="перейти"
+                    android:textSize="12sp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="120dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/rr2"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Тренеровка ног"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#F4F1F1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/radius"
+                    android:text="перейти"
+                    android:textSize="12sp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="120dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/rrr"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Тренеровка преса"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#F4F1F1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/radius"
+                    android:text="перейти"
+                    android:textSize="12sp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="120dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/rrrrrr"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Тренеровка всего тела"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#F4F1F1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/radius"
+                    android:text="перейти"
+                    android:textSize="12sp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="120dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/aaaa">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Кросфит"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#F4F1F1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/radius"
+                    android:text="перейти"
+                    android:textSize="12sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/qqqq"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Правильное питание"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#F4F1F1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/radius"
+                    android:text="перейти"
+                    android:textSize="12sp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="120dp"/>
+            </FrameLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</FrameLayout>
